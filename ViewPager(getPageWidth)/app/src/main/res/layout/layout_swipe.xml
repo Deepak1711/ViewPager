@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40dp"
+    tools:context="com.example.deepak.viewpager.MainActivity">
+
+
+
+    <FrameLayout android:id="@+id/flContainer"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/icon_selector">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image1"
+            />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:id="@+id/checkbox1"
+            android:checked="false"
+            android:clickable="false"
+            android:button="@drawable/checkbox_selector"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birthday"
+            android:layout_gravity="bottom|center"
+            android:id="@+id/text1"
+            android:textColor="@color/colorPrimary"/>
+
+    </FrameLayout>
+
+    <FrameLayout android:id="@+id/flContainer1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/icon_selector">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image2"
+            />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:id="@+id/checkbox2"
+            android:checked="false"
+            android:clickable="false"
+            android:button="@drawable/checkbox_selector"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birthday"
+            android:layout_gravity="bottom|center"
+            android:id="@+id/text2"
+            android:textColor="@color/colorPrimary"/>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
